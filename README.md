@@ -1,6 +1,22 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ToDo List App - CS628 PE04
+
+## 📌 Input
+- The application allows users to enter a task description into an input field.
+- When the user clicks the **"Add Task"** button, the task is stored in the application’s state using React's `useState` hook.
+
+## ⚙️ Process
+- The app dynamically manages tasks using `useState`.
+- New tasks are added to an array, and React’s `.map()` function renders them in real time.
+- Each task has a **"Delete"** button, which removes it from the list when clicked.
+- The UI updates automatically with state changes.
+
+## 📤 Output
+- The app displays a structured **ToDo List** where users can **add, view, and delete** tasks.
+- Styled using **CSS**, with a modern UI for better user experience.
+- Future improvements include **local storage support** to persist tasks.
 
 ## Available Scripts
 
